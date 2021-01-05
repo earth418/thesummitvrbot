@@ -118,7 +118,7 @@ client.on('message', msg => {
         msg.channel.send("https://trello.com/b/2AFssKxP/the-summit-vr-trello");
         break;
       case "help":
-        msg.channel.send("Commands are:\n```sup\nmembers?\nfavorite game?\nworst game?```")
+        msg.channel.send("Commands are:\n```trello \n sup \n members? \n favorite game? \n worst game? \n insult```")
         break;
       case "sup":
         msg.channel.send("Sup " + msg.member.user.username + ".");
@@ -144,7 +144,7 @@ client.on('message', msg => {
         break;
       case "batman":
       case "~batman":
-        msg.channel.send("Reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
+        msg.channel.send("Reeeeeeeeeeeeeeeeeee");
         break;
       case "firerocket":
       case "insult":
